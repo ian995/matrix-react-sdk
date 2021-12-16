@@ -168,7 +168,7 @@ const AppRow: React.FC<IAppRowProps> = ({ app, room }) => {
             yOffset={-48}
         >
             <WidgetAvatar app={app} />
-            <span>{ name }</span>
+            { /* <span>{ name }</span> */ }
             { subtitle }
         </AccessibleTooltipButton>
 
